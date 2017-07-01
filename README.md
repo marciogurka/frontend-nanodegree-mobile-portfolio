@@ -2,6 +2,13 @@
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
+##How to test it
+
+1. Clone repo;
+2. With node installed, run `npm install`;
+3. With gulp and http-server installed globally, run `npm start`;
+4. You'll be able to access `http://localhost:8080/prod/` to test it;
+
 To get started, check out the repository and inspect the code.
 
 ### Getting started
