@@ -1,13 +1,20 @@
 ## Website Performance Optimization portfolio project
 
-Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
-
-##How to test it
+## How to use it
 
 1. Clone repo;
-2. With node installed, run `npm install`;
-3. With gulp and http-server installed globally, run `npm start`;
-4. You'll be able to access `http://localhost:8080/prod/` to test it;
+2. With [node](https://nodejs.org/en/) installed, run `npm install`;
+3. With [gulp](http://gulpjs.com/) and [http-server](https://www.npmjs.com/package/http-server) installed globally, run `npm start`;
+4. You'll be able to access `http://localhost:8080/` to use it;
+
+## Optimizations
+* Removed blocking rendering CSS and JS;
+* Minified CSS, JS and HTML with Gulp;
+* Rewrote functions like changePizzaSizes to get the best performance;
+* Rewrote JS code that was doing more operations than needed;
+
+## Description
+Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 To get started, check out the repository and inspect the code.
 
@@ -60,3 +67,4 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
